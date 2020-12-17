@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Stock Master</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="head-row">
+      <h1>Stock Master</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <form>
+        <div class="column">
+          <label><em>Enter the ticker for a company of your choice to pull its stock data.</em></label>
+        </div>
+        <div class="column" id="form">
+          <input id="tickerInput" type="text" placeholder="i.e., AAPL"></input><br />
+          <br>
+          <input id="tickerSubmit" type="submit" value="Submit"></input>
+        </div>
+      </form>
+      <div id="profileStats">
+      </div>
+      <div id="chart">
+      </div>
+    </div>
+  </div>
+
+
+  <p class="footer"> &#169 Ethan Garlick; <a href="https://github.com/egaregar/finance_site.git">Git Hub</a> </p>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script text="type/javascript" src="/script.js">
+  </script>
+
+</body>
+
+</html>
